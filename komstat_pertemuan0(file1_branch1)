@@ -1,0 +1,4 @@
+dataP = c(1000, 2000, 3000)
+dataN = c(2, 3, 5, 7)
+
+GIC_interest(dataP, dataN)
