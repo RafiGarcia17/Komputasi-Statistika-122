@@ -1,0 +1,9 @@
+mortgage_payment <- function(n, P, open) {
+  if (open == TRUE) {
+    i <- 0.005
+  } else {
+    i <- 0.004
+  }
+  R <- (P * i) / (1 - (1 + i)^(-n))
+  return(R)
+}
