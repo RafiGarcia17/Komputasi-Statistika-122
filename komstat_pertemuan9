@@ -8,3 +8,6 @@ GIC_interest <- function(P, n) {
   I <- P * ((1 + i)^n - 1)
   return(I)
 }
+
+GIC_interest(1000, 5)
+GIC_interest(1000,2)
